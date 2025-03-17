@@ -1,0 +1,25 @@
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem;
+  gap: 1.5rem;
+  /* background-color: aliceblue; */
+}
+.social-icons {
+  display: flex;
+  gap: 2rem;
+}
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+    .social-icons {
+      gap: 1rem;
+      
+    }
+    
+}
