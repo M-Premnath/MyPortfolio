@@ -8,11 +8,13 @@ import Services from './components/Services';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import SplashCursor from './components/SplashCursor';
 import './App.css';
 
 function App() {
   return (
     <div>
+      <SplashCursor />
       <Header />
       <div id="hero">
         <HeroSection />
