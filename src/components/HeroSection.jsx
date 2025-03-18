@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { RotatingText } from "./RotatingText";
-import "../styles/hero-section.css";
+import "../styles/style.css";
 
 export default function HeroSection() {
   return (
