@@ -54,3 +54,51 @@
     margin: 0.5rem 0.5rem 0.5rem 0;
     border-radius: 5px;
 }
+.view-btn {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    color: transparent;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: none;
+    margin-top: 1rem;
+    
+}
+
+.view-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/git.png) no-repeat center;
+    background-size: cover;
+    transition: all 0.3s ease;
+
+}
+
+.view-btn:hover::before {
+    transform: scale(1.1);
+    filter: brightness(0.3);
+}
+
+.view-btn:hover {
+    color: white;
+    border: 2px solid #6b7280;
+
+}
+
+.view-btn:hover::after {
+    content: 'View More on Github';
+    position: absolute;
+    bottom: 20px;
+    left: 47.5%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

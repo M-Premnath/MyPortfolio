@@ -68,6 +68,7 @@ const Projects = () => {
           </div>
         </div>
       ))}
+      <button className="border-2 cursor-pointer border-purple-400/50 rounded-2xl hover:border-sky-400/50  view-btn" >View More on Github</button>
     </div>
   </section>
     
