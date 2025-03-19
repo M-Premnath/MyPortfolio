@@ -95,10 +95,45 @@
     content: 'View More on Github';
     position: absolute;
     bottom: 20px;
-    left: 47.5%;
+    text-align: center;
+    left: 47%;
     transform: translateX(-50%);
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .projects{
+        padding: 0 1rem;
+        margin-top: 150px;
+    }
+    .title{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .card{
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        gap: 0.5rem;
+    }
+    .card img{
+        height: 150px;
+    }
+    .card h3{
+        font-size: 1.2rem;
+    }
+    .card p{
+        font-size: 0.9rem;
+    }
+    .tags span{
+        font-size: 0.7rem;
+    }
+    .view-btn {
+        height: 200px;
+    }
+    .view-btn::after {
+        font-size: 0.5rem;
+    }
 }
