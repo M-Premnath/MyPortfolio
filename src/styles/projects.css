@@ -1,0 +1,56 @@
+.projects{
+    padding: 0 3rem 0;
+    width: 100%;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+.card{
+    /* background-color: #f3f4f6; */
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.411);
+    transition: all 0.3s ease;
+    max-width: 500px;
+    max-height: 700px;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.411);
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+.card p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6b7280;
+    margin: 0.5rem 0;
+}
+.tags{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0.5rem 0;
+}
+.tags span{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #6b7280;
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    border-radius: 5px;
+}
