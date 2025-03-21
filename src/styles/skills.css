@@ -1,0 +1,17 @@
+.skills{
+    width: 100%;
+    min-height: 50vh;
+
+}
+.skills h2{
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.image-container{
+    width: 100%;
+    margin-right: 2rem;
+}
+.reverse-marquee{
+    margin-top: 1rem;
+    margin-right: 2rem;
+}

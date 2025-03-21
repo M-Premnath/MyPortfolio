@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import "../styles/skills.css";
 
 const Skills = () => {
   const images = [
@@ -10,24 +11,22 @@ const Skills = () => {
     "src/assets/Skills/Tailwind.png",
     "src/assets/Skills/Mui.png",
     "src/assets/Skills/React.png",
-    "src/assets/Skills/Redux.png",
     "src/assets/Skills/Node.png",
+    "src/assets/Skills/Python.png",
     "src/assets/Skills/Figma.png",
-    "src/assets/Skills/github.png",
+    "src/assets/Skills/Github.png",
   ];
 
   return (
-    <section id="skills" className="py-10">
+    <section id="skills" className="skills">
       {/* Title */}
-      <h2 className="text-3xl md:text-4xl font-bold text-center font-serif">
-        Skills
-      </h2>
+      <h2 className="text-2xl md:text-4xl font-bold bungee-shade-regular title">Skills</h2>
 
       {/* Marquee Section */}
-      <div className="mt-8">
+      <div className=" container">
         <Marquee speed={30} pauseOnHover={true} gradient={true} gradientWidth={0}>
           {images.map((image, index) => (
-            <div key={index} className="mx-4">
+            <div key={index} className="mx-4 image-container">
               <img src={image} alt={`Skill ${index + 1}`} className="h-20 md:h-24" />
             </div>
           ))}
@@ -35,12 +34,12 @@ const Skills = () => {
       </div>
 
       {/* Reverse Marquee for Mobile */}
-      <div className="mt-8 block md:hidden">
+      <div className="mt-8 block md:hidden reverse-marquee">
         <Marquee
           speed={30}
           pauseOnHover={true}
           gradient={true}
-          gradientWidth={100}
+          gradientWidth={0}
           direction="right"
         >
           {images.slice().reverse().map((image, index) => (
