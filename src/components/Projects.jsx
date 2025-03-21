@@ -1,5 +1,7 @@
 import React from 'react'
 import "../styles/projects.css";
+import { FaLink} from "react-icons/fa";
+
 const cards = [
   {
     id: 1,
@@ -68,7 +70,21 @@ const Projects = () => {
           </div>
         </div>
       ))}
-      <button className="border-2 cursor-pointer border-purple-400/50 rounded-2xl hover:border-sky-400/50  view-btn" >View More on Github</button>
+    <a 
+      href="../assets/git.png" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="relative group overflow-hidden rounded-lg  border-1 border-gray-300 hover:border-sky-400/50 hover:border-2 transition-all duration-300 git-card"
+    >
+      <img 
+        src="../src/assets/git.png" 
+        alt="GitHub Projects" 
+        className="w-full h-100 object-cover transition-all duration-300 brightness-70 group-hover:brightness-[0.3] "
+      />
+      <div className="absolute bottom-0 left-0 w-full p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 bg-black/50 backdrop-blur-sm flex items-center justify-center gap-2 text-white link">
+        View More on Github <FaLink className="inline-block" />
+      </div>
+    </a>
     </div>
   </section>
     

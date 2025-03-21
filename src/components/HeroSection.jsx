@@ -26,7 +26,7 @@ export default function HeroSection() {
 
       {/* Right Side - Animated Blob with Image */}
       <div className="relative w-80 h-80 md:w-96 md:h-96 mt-4 md:mt-0 right-container">
-        <img src="src/assets/blob-1-opacity-47.gif" alt=""   />
+        <img src="src/assets/blob.gif" alt="blob background"   />   
         {/* Profile Image */}
         <img
           src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001877.png" 
