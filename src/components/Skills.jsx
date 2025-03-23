@@ -17,17 +17,21 @@ const Skills = () => {
     "src/assets/Skills/Github.png",
   ];
 
+  const getAltText = (imagePath) => {
+    return imagePath.split('/').pop().split('.')[0];
+  };
+
   return (
     <section id="skills" className="skills">
       {/* Title */}
       <h2 className="text-2xl md:text-4xl font-bold bungee-shade-regular title">Skills</h2>
 
       {/* Marquee Section */}
-      <div className=" container">
+      <div className="container">
         <Marquee speed={30} pauseOnHover={true} gradient={true} gradientWidth={0}>
           {images.map((image, index) => (
             <div key={index} className="mx-4 image-container">
-              <img src={image} alt={`Skill ${index + 1}`} className="h-20 md:h-24" />
+              <img src={image} alt={getAltText(image)} className="h-20 md:h-24" />
             </div>
           ))}
         </Marquee>
@@ -44,7 +48,7 @@ const Skills = () => {
         >
           {images.slice().reverse().map((image, index) => (
             <div key={index} className="mx-4">
-              <img src={image} alt={`Skill ${index + 1}`} className="h-20 md:h-24" />
+              <img src={image} alt={getAltText(image)} className="h-20 md:h-24" />
             </div>
           ))}
         </Marquee>
