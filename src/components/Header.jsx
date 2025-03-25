@@ -68,13 +68,13 @@ function Header() {
 
       {/* Social Media Icons */}
       <Box sx={{ display: "flex", justifyContent: "center", gap: 2, mt: "1rem", pb: 4 }}>
-        <IconButton color="inherit" component="a" href="https://linkedin.com" target="_blank">
+        <IconButton color="inherit" component="a" href="https://www.linkedin.com/in/premnath-m/" target="_blank">
           <FaLinkedin />
         </IconButton>
-        <IconButton color="inherit" component="a" href="https://github.com" target="_blank">
+        <IconButton color="inherit" component="a" href="https://github.com/M-Premnath" target="_blank">
           <FaGithub />
         </IconButton>
-        <IconButton color="inherit" component="a" href="https://twitter.com" target="_blank">
+        <IconButton color="inherit" component="a" href="https://x.com/Premnath_T_M" target="_blank">
           <RiTwitterXFill  />
         </IconButton>
       </Box>

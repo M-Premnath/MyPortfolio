@@ -29,13 +29,13 @@ const Footer = () => {
         </nav>
 
           <div className="social-icons">
-            <a href="#" className="icon">
+            <a href="https://www.linkedin.com/in/premnath-m/" target="_blank"  className="icon">
               <FaLinkedin />
             </a>
-            <a href="#" className="icon">
+            <a href="https://github.com/M-Premnath" target="_blank" className="icon">
               <FaGithub />
             </a>
-            <a href="#" className="icon">
+            <a href="https://x.com/Premnath_T_M" target="_blank"  className="icon">
               <RiTwitterXFill />
             </a>
           </div>

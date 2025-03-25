@@ -20,9 +20,9 @@ export default function HeroSection() {
         </div>
         {/* Social Media Icons */}
         <div className="flex justify-center md:justify-start space-x-4 mt-4 social-icons">
-          <a href="#" className="text-3xl  hover:text-black"><FaGithub /></a>
-          <a href="#" className="text-3xl  hover:text-blue-700"><FaLinkedin /></a>
-          <a href="#" className="text-3xl  hover:text-blue-600"><RiTwitterXFill /></a>
+          <a href="https://github.com/M-Premnath" target="_blank"  className="text-3xl  hover:text-black"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/premnath-m/" target="_blank" className="text-3xl  hover:text-blue-700"><FaLinkedin /></a>
+          <a href="https://x.com/Premnath_T_M" target="_blank"  className="text-3xl  hover:text-blue-600"><RiTwitterXFill /></a>
         </div>
       </div>
 
