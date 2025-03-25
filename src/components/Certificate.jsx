@@ -39,7 +39,7 @@ const CertificateSlider = () => {
   };
 
   return (
-    <div className="certificate-slider">
+    <section className="certificate-slider" id="certificate">
       <h2 className="text-2xl md:text-4xl font-bold bungee-shade-regular certificate-title">My Certifications</h2>
       <div className="slider-container">
         <Slider {...settings}>
@@ -54,7 +54,7 @@ const CertificateSlider = () => {
           ))}
         </Slider>
       </div>
-    </div>
+    </section>
   );
 };
 

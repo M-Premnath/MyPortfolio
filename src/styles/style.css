@@ -32,7 +32,7 @@
 .right-section p{
   font-size: 1.5rem;
   font-weight: 400;
-  color:aliceblue;
+  color: gainsboro;
   font-family: "Merienda", cursive;
 }
 .right-section button{
@@ -42,6 +42,7 @@
   align-items: center;
   gap: 0.5rem;
 }
+
 @media screen and (max-width: 768px) {
     .social-icons {
       gap: 1rem;

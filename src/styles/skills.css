@@ -15,3 +15,15 @@
     margin-top: 1rem;
     margin-right: 2rem;
 }
+
+@media screen and (max-width: 768px){
+    .skills{
+        margin-top: -8rem;
+    }
+    .image-container{
+        margin-right: 0;
+    }
+    .reverse-marquee{
+        margin: 2rem 0 -4rem;
+    }
+}

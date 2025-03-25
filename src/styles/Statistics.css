@@ -86,7 +86,7 @@
   @media screen and (max-width: 768px) {
     .stats-container {
       padding: 20px 10px;
-      margin: 15rem 0;
+      margin: 10rem 0;
     }
     .stats-card p {
       font-size: 30px;

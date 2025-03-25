@@ -15,7 +15,7 @@ function App() {
     <>
       <SplashCursor />
       <Header />
-      <div id="hero">
+      <div id="home">
         <HeroSection />
       </div>
       <div id="about">

@@ -1,10 +1,12 @@
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+
 import { RotatingText } from "./RotatingText";
 import "../styles/style.css";
 
 export default function HeroSection() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-evenly min-h-screen mt-4 md:mt-0 HeroSection">
+    <section className="flex flex-col md:flex-row items-center justify-evenly min-h-screen mt-4 md:mt-0 HeroSection" id="home">
       {/* Left Side */}
       <div className="text-center md:text-left space-y-6 md:space-y-8 max-w-lg left-container">
         <h1 className="text-3xl md:text-5xl font-bold">Hi, I am Premnath</h1>
@@ -20,7 +22,7 @@ export default function HeroSection() {
         <div className="flex justify-center md:justify-start space-x-4 mt-4 social-icons">
           <a href="#" className="text-3xl  hover:text-black"><FaGithub /></a>
           <a href="#" className="text-3xl  hover:text-blue-700"><FaLinkedin /></a>
-          <a href="#" className="text-3xl  hover:text-blue-600"><FaTwitter /></a>
+          <a href="#" className="text-3xl  hover:text-blue-600"><RiTwitterXFill /></a>
         </div>
       </div>
 
