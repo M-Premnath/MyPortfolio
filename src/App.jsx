@@ -3,7 +3,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Statistics from './components/Statistics';
 import AboutMe from './components/AboutMe';
-import Services from './components/Services';
+import Certificate from './components/Certificate';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
@@ -21,18 +21,19 @@ function App() {
       <div id="about">
         <AboutMe />
       </div>
-      <div id="projects">
-        <Projects />
+      <div id="statistics">
+        <Statistics />
       </div>
       <div id="skills">
         <Skills />
       </div>
-      {/* <div id="services">
-        <Services />
+      <div id="projects">
+        <Projects />
       </div>
-      <div id="statistics">
-        <Statistics />
-      </div> */}
+      <div id="Certificate">
+        <Certificate />
+      </div>
+
       <Footer />
     </>
   );
