@@ -12,7 +12,7 @@ export default function HeroSection() {
         <h1 className="text-3xl md:text-5xl font-bold">Hi, I am Premnath</h1>
         <div className="text-2xl md:text-4xl font-semibold text-sky-600">
           <RotatingText
-           texts={["Frontend Developer", "Backend Developer", "Full Stack Developer"]} 
+           texts={["Frontend Developer", "Designer", "Full Stack Developer"]} 
            transition={{ type: "spring", damping: 30, stiffness: 400 }}
            staggerDuration={0.025}
            rotationInterval={3000}

@@ -6,29 +6,37 @@ const cards = [
   {
     id: 1,
     image: "https://picsum.photos/200/300",
-    title: "Card Title 1",
-    content: "This is a brief description of the first card.",
-    tags: ["React", "Tailwind", "UI"],
+    title: "Image Search Application",
+    content: "Developed a React-based image search application using the Pixabay API..",
+    tags: ["React", "Tailwind","Axios","React-router", "Js", "Pixabay API"],
     link: "#"
   },
   {
     id: 2,
     image: "https://picsum.photos/200/300",
-    title: "Card Title 2",
-    content: "This is a brief description of the second card.",
-    tags: ["Frontend", "Design", "UX"],
+    title: "QR Code Generator",
+    content: "Built a QR code generator that converts any website link into a QR code",
+    tags: ["Html", "Css", "JavaScript"],
     link: "#"
   },
   {
     id: 3,
     image: "https://picsum.photos/200/300",
-    title: "Card Title 3",
-    content: "This is a brief description of the third card.",
-    tags: ["JavaScript", "Components", "Web"],
+    title: "Weather Application",
+    content: "Developed a real-time weather application that fetches weather data based on the city name entered by th",
+    tags: ["Html", "Css","JavaScript", "Weather API"],
     link: "#"
   },
   {
     id: 4,
+    image: "https://picsum.photos/200/300",
+    title: "Card Title 4",
+    content: "This is a brief description of the fourth card.",
+    tags: ["Development", "Programming", "CSS"],
+    link: "#"
+  },
+  {
+    id: 5,
     image: "https://picsum.photos/200/300",
     title: "Card Title 4",
     content: "This is a brief description of the fourth card.",

@@ -5,11 +5,12 @@ import "slick-carousel/slick/slick-theme.css";
 import "../styles/CertificateSlider.css"; // Import CSS file
 
 const certificates = [
-  { id: 1, title: "React Developer", image: "https://picsum.photos/400/250",org:"Udemy" },
-  { id: 2, title: "Frontend Expert", image: "https://picsum.photos/400/250",org:"Udemy" },
-  { id: 3, title: "JavaScript Mastery", image: "https://picsum.photos/400/250",org:"Udemy" },
-  { id: 4, title: "UI/UX Specialist", image: "https://picsum.photos/400/250",org:"Udemy" },
-  { id: 5, title: "Backend Pro", image: "https://picsum.photos/400/250",org:"Udemy" },
+  { id: 1, title: "Frontend Developer (React)", image: "src/assets/Certificates/Frontend Developer (React).jpg",org:"HackerRank", link: "https://www.hackerrank.com/certificates/02156e874e19" },
+  { id: 2, title: "Python", image: "src/assets/Certificates/Python.png",org:"Kaggle", link: "https://www.kaggle.com/learn/certification/premnathtm/python" },
+  { id: 3, title: "Responsive Web Design", image: "src/assets/Certificates/Web design.jpg",org:"freeCodeCamp", link:"https://www.freecodecamp.org/certification/Premnath/responsive-web-design" },
+  { id: 4, title: "CSS (Basic)", image: "src/assets/Certificates/Css.jpg",org:"HackerRank", link: "https://www.hackerrank.com/certificates/e3ce0bf156ee" },
+  { id: 5, title: "HTML Fundamentals", image: "src/assets/Certificates/Html.jpg",org:"Coddy tech", link: "https://coddy.tech/certifications/g9HDsm-cTiZhY" },
+  { id: 6, title: "ReactJS for Beginners", image: "src/assets/Certificates/React.jpg",org:"Simplilearn", link: "https://simpli-web.app.link/e/da2DIrRs1Rb" },
 ];
 
 const CertificateSlider = () => {
@@ -45,11 +46,18 @@ const CertificateSlider = () => {
         <Slider {...settings}>
           {certificates.map((cert) => (
             <div key={cert.id} className="slide">
+                <a 
+                  href={cert.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="certificate-link"
+                >
               <div className="certificate-card">
                 <img src={cert.image} alt={cert.title} className="certificate-img" />
                 <h3 className="certificate-name">{cert.title}</h3>
                 <p className="certificate-footer">Issued by  {cert.org}</p>
               </div>
+              </a>
             </div>
           ))}
         </Slider>
