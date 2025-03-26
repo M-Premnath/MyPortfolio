@@ -21,18 +21,18 @@ const cards = [
   },
   {
     id: 3,
-    video: "src/assets/Projects/WeatherApp.mp4",
+    video: "src/assets/Projects/Weather App.mp4",
     title: "Weather Application",
     content: "Developed a real-time weather application that fetches weather data based on the city name entered.",
     tags: ["HTML", "CSS", "JavaScript", "Weather API"],
-    link: "#"
+    link: "https://m-premnath.github.io/Weather-app/"
   },
   {
     id: 4,
     video: "src/assets/Projects/Age Calculator.mp4",
     title: "Age Calculator",
     content: "An application to calculate age based on date of birth.",
-    tags: ["Development", "Programming", "CSS"],
+    tags: ["Html","CSS","Javascript"],
     link: "https://agecalculator-premdev.netlify.app/"
   },
   {
@@ -55,7 +55,7 @@ const Projects = () => {
             key={card.id}
             className="border border-gray-300 rounded-lg p-4 hover:shadow-lg card transition-shadow hover:scale-105 hover:border-2 hover:border-blue-500 hover:brightness-100 transition-transform"
           >
-            <a href={card.link} className="text-blue-600 hover:underline link">
+            <a href={card.link} target='_blank' className="text-blue-600 hover:underline link">
               <video
                 src={card.video}
                 loop
@@ -79,7 +79,7 @@ const Projects = () => {
           </div>
         ))}
         <a 
-          href="../assets/git.png" 
+          href="https://github.com/M-Premnath" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="relative group overflow-hidden rounded-lg border-1 border-gray-300 hover:border-sky-400/50 hover:border-2 transition-all duration-300 git-card"
