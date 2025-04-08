@@ -13,6 +13,14 @@ const cards = [
   },
   {
     id: 2,
+    video: "src/assets/Projects/Video Player.mp4",
+    title: "Custom Video Player",
+    content: "A custom video player application built with React, utilizing packages like React-Player for seamless video playback and Yup for input validation.",
+    tags: ["React","React-player", "Mui", "Yup", "CSS"],
+    link: "https://custom-videoplayer-premdev.netlify.app/"
+  },
+  {
+    id: 3,
     video: "src/assets/Projects/QR Code Generator.mp4",
     title: "QR Code Generator",
     content: "Built a QR code generator that converts any website link into a QR code.",
@@ -20,7 +28,7 @@ const cards = [
     link: "https://qr-generator-premdev.netlify.app/"
   },
   {
-    id: 3,
+    id: 4,
     video: "src/assets/Projects/Weather App.mp4",
     title: "Weather Application",
     content: "Developed a real-time weather application that fetches weather data based on the city name entered.",
@@ -28,21 +36,14 @@ const cards = [
     link: "https://m-premnath.github.io/Weather-app/"
   },
   {
-    id: 4,
+    id: 5,
     video: "src/assets/Projects/Age Calculator.mp4",
     title: "Age Calculator",
     content: "An application to calculate age based on date of birth.",
     tags: ["Html","CSS","Javascript"],
     link: "https://agecalculator-premdev.netlify.app/"
-  },
-  {
-    id: 5,
-    video: "src/assets/Projects/ToDoList.mp4",
-    title: "To-Do List App",
-    content: "A simple and interactive To-Do List application with CRUD operations.",
-    tags: ["React", "JavaScript", "CSS"],
-    link: "#"
   }
+
 ];
 
 const Projects = () => {
