@@ -27,7 +27,7 @@ const AboutMe = () => {
   };
 
   return (
-    <section id="about" className="w-screen min-h-screen flex items-center justify-center p-5">
+    <section id="about" className="w-screen min-h-screen flex items-center justify-center p-5" style={{ paddingTop: "3rem", height: "100vh" }}>
       <div className="w-full max-w-7xl flex flex-col md:flex-row gap-5 text-white-300">
         {/* Left Section */}
         <div className="flex flex-col gap-5 w-full md:w-1/3">
@@ -40,8 +40,8 @@ const AboutMe = () => {
         {/* Right Section */}
         <div className="w-full md:w-2/3 flex items-center justify-center border border-gray-500/50 rounded-2xl p-8 md:p-14 text-center right-section">
           <h1 className="text-2xl md:text-4xl font-bold bungee-shade-regular">About Me</h1>
-          <p className="text-lg md:text-2xl leading-relaxed">
-            I am a full-stack web developer passionate about building functional and engaging websites. With expertise in front-end and back-end development, I am always eager to learn and improve. My skills include HTML, CSS, JavaScript, React, Node.js, and MongoDB. I enjoy collaborating with teams and solving complex problems to create innovative solutions that enhance user experiences.
+          <p className="text-base md:text-lg leading-relaxed">
+          I’m Premnath M., a Full Stack Developer with a BCA and an MBA, combining technical skills with business insight. I specialize in frontend development using Vue.js and React.js, with backend experience in MySQL and RESTful APIs. My projects include the IRCTC Settlement Download Page, HRMS Portal upgrades, and Python-based automation tasks. I focus on building clean, responsive, and user-friendly applications. I'm also exploring Shopify app development, UI customization with Tailwind CSS, and automation using Selenium. I’m passionate about continuous learning and enjoy tackling challenges that help me grow as a developer and contribute meaningful solutions.
           </p>
           <button 
             className="border-2 cursor-pointer border-purple-400/50 rounded-2xl px-4 py-2 hover:bg-purple-400/20 transition-colors flex items-center gap-2"

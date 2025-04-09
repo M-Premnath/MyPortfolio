@@ -30,7 +30,7 @@
   /* background-color: aliceblue; */
 }
 .right-section p{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
   color: gainsboro;
   font-family: "Merienda", cursive;
@@ -44,12 +44,19 @@
 }
 
 @media screen and (max-width: 768px) {
+    #home{
+      padding-top: 3rem;
+      height: 100vh;
+    }
     .social-icons {
       gap: 1rem;
     }
     #about{
+      position: relative;
+      top: 60vh;
       padding: 0 1rem;
-      margin-top: 100px;
+      height: 90rem;
+      margin-top: -70vh;
     }
     .left-container{
       gap: 0.5rem;
@@ -61,7 +68,7 @@
       font-size: 1.5rem;
     }
     .right-section p{
-      font-size: 1rem;
+      font-size: 14px;
     }
     .right-section button{
       padding: 7px 0.7rem 7px;

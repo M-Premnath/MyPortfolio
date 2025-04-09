@@ -84,6 +84,9 @@
     font-weight: bold;
   }
   @media screen and (max-width: 768px) {
+    #statistics{
+      margin: 0 0 10rem 0;
+    }
     .stats-container {
       padding: 20px 10px;
       margin: 10rem 0;

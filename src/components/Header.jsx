@@ -68,7 +68,7 @@ function Header() {
 
       {/* Social Media Icons */}
       <Box sx={{ display: "flex", justifyContent: "center", gap: 2, mt: "1rem", pb: 4 }}>
-        <IconButton color="inherit" component="a" href="https://www.linkedin.com/in/premnath-m/" target="_blank">
+        <IconButton color="inherit"  component="a" href="https://www.linkedin.com/in/premnath-m/" target="_blank">
           <FaLinkedin />
         </IconButton>
         <IconButton color="inherit" component="a" href="https://github.com/M-Premnath" target="_blank">
@@ -91,15 +91,16 @@ function Header() {
           </IconButton>
 
           {/* Website Title */}
-          <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            Portfolio
+          <img src="./Logo.svg" alt="Logo" style={{ width: "35px", height: "35px"}} />
+          <Typography variant="h6" sx={{ flexGrow: 1, marginLeft: 1 }}>
+          Prem dev
           </Typography>
 
           {/* Desktop Navigation Icons */}
           <Box sx={{ display: { xs: "none", sm: "flex" }, gap: 4 }}>
             {navItems.map((item) => (
               <Tooltip key={item.text} title={item.text} arrow placement="bottom" >
-              <IconButton color="inherit" onClick={() => handleNavClick(item.id)}>
+              <IconButton  color="inherit" onClick={() => handleNavClick(item.id)}>
                 {item.icon}
               </IconButton>
             </Tooltip>

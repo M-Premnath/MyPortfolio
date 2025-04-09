@@ -48,7 +48,7 @@ const cards = [
 
 const Projects = () => {
   return (
-    <section className="projects" id="projects">
+    <section className="projects" id="projects"  style={{ paddingTop: "3rem" }}>
       <h2 className="text-2xl md:text-4xl font-bold bungee-shade-regular title">Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {cards.map((card) => (

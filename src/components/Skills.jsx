@@ -22,7 +22,7 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="skills">
+    <section id="skills" className="skills"  style={{ paddingTop: "3rem", height: "70vh" }}>
       {/* Title */}
       <h2 className="text-2xl md:text-4xl font-bold bungee-shade-regular title">Skills</h2>
 

@@ -35,7 +35,7 @@ const Statistics = () => {
   }, []);
 
   return (
-    <section id="statistics" className="stats-container">
+    <section id="statistics" className="stats-container" style={{ paddingTop: "3rem", height: "100vh" }}>
       {/* Title */}
       <h2 className="text-2xl md:text-4xl font-bold bungee-shade-regular title">Github Statistics</h2>
 
