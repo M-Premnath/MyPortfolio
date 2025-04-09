@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-content">
         {/* Left Side - Profile & Quote */}
         <div className="footer-left">
-          <img src="https://cdn.pixabay.com/photo/2024/06/01/09/02/young-man-8801863_1280.jpg   " alt="Profile" className="profile-img" />
+          <img src="src/assets/Profile.jpeg" alt="Profile" className="profile-img" />
           <h2 className="footer-title">Premnath.M</h2>
           <p className="footer-quote">
             "Programs must be written for people to read, and only incidentally for machines to execute."

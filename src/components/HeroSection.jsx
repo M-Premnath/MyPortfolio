@@ -31,9 +31,9 @@ export default function HeroSection() {
         <img src="src/assets/blob.gif" alt="blob background"   />   
         {/* Profile Image */}
         <img
-          src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001877.png" 
+          src="./src/assets/Profile7.jpeg" 
           alt="Premnath"
-          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full w-56 h-56 md:w-72 md:h-72 "
+          className="absolute top-[42%] left-[47%] transform -translate-x-1/2 -translate-y-1/2 rounded-full w-56 h-56 md:w-72 md:h-72 "
         />
       </div>
     </section>
