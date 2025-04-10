@@ -4,17 +4,17 @@ import "../styles/skills.css";
 
 const Skills = () => {
   const images = [
-    "src/assets/Skills/Html5.png",
-    "src/assets/Skills/css.png",
-    "src/assets/Skills/Js.png",
-    "src/assets/Skills/Bootstrap.png",
-    "src/assets/Skills/Tailwind.png",
-    "src/assets/Skills/Mui.png",
-    "src/assets/Skills/React.png",
-    "src/assets/Skills/Node.png",
-    "src/assets/Skills/Python.png",
-    "src/assets/Skills/Figma.png",
-    "src/assets/Skills/Github.png",
+    "./assets/Skills/Html5.png",
+    "./assets/Skills/css.png",
+    "./assets/Skills/Js.png",
+    "./assets/Skills/Bootstrap.png",
+    "./assets/Skills/Tailwind.png",
+    "./assets/Skills/Mui.png",
+    "./assets/Skills/React.png",
+    "./assets/Skills/Node.png",
+    "./assets/Skills/Python.png",
+    "./assets/Skills/Figma.png",
+    "./assets/Skills/Github.png",
   ];
 
   const getAltText = (imagePath) => {

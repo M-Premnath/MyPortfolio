@@ -5,12 +5,12 @@ import "slick-carousel/slick/slick-theme.css";
 import "../styles/CertificateSlider.css"; // Import CSS file
 
 const certificates = [
-  { id: 1, title: "Frontend Developer (React)", image: "src/assets/Certificates/Frontend Developer (React).jpg",org:"HackerRank", link: "https://www.hackerrank.com/certificates/02156e874e19" },
-  { id: 2, title: "Python", image: "src/assets/Certificates/Python.png",org:"Kaggle", link: "https://www.kaggle.com/learn/certification/premnathtm/python" },
-  { id: 3, title: "Responsive Web Design", image: "src/assets/Certificates/Web design.jpg",org:"freeCodeCamp", link:"https://www.freecodecamp.org/certification/Premnath/responsive-web-design" },
-  { id: 4, title: "CSS (Basic)", image: "src/assets/Certificates/Css.jpg",org:"HackerRank", link: "https://www.hackerrank.com/certificates/e3ce0bf156ee" },
-  { id: 5, title: "HTML Fundamentals", image: "src/assets/Certificates/Html.jpg",org:"Coddy tech", link: "https://coddy.tech/certifications/g9HDsm-cTiZhY" },
-  { id: 6, title: "ReactJS for Beginners", image: "src/assets/Certificates/React.jpg",org:"Simplilearn", link: "https://simpli-web.app.link/e/da2DIrRs1Rb" },
+  { id: 1, title: "Frontend Developer (React)", image: "./assets/Certificates/Frontend Developer (React).jpg",org:"HackerRank", link: "https://www.hackerrank.com/certificates/02156e874e19" },
+  { id: 2, title: "Python", image: "./assets/Certificates/Python.png",org:"Kaggle", link: "https://www.kaggle.com/learn/certification/premnathtm/python" },
+  { id: 3, title: "Responsive Web Design", image: "./assets/Certificates/Web design.jpg",org:"freeCodeCamp", link:"https://www.freecodecamp.org/certification/Premnath/responsive-web-design" },
+  { id: 4, title: "CSS (Basic)", image: "./assets/Certificates/Css.jpg",org:"HackerRank", link: "https://www.hackerrank.com/certificates/e3ce0bf156ee" },
+  { id: 5, title: "HTML Fundamentals", image: "./assets/Certificates/Html.jpg",org:"Coddy tech", link: "https://coddy.tech/certifications/g9HDsm-cTiZhY" },
+  { id: 6, title: "ReactJS for Beginners", image: "./assets/Certificates/React.jpg",org:"Simplilearn", link: "https://simpli-web.app.link/e/da2DIrRs1Rb" },
 ];
 
 const CertificateSlider = () => {

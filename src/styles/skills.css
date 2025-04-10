@@ -18,12 +18,12 @@
 
 @media screen and (max-width: 768px){
     .skills{
-        margin-top: 20rem;
+        margin-top: 5rem;
     }
     .image-container{
         margin-right: 0;
     }
     .reverse-marquee{
-        margin: 2rem 0 -4rem;
+        margin: 6rem 0 -4rem;
     }
 }

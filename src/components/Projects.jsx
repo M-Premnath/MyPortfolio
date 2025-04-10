@@ -5,7 +5,7 @@ import { FaLink } from "react-icons/fa";
 const cards = [
   {
     id: 1,
-    video: "src/assets/Projects/Pixabay.mp4",
+    video: "./assets/Projects/Pixabay.mp4",
     title: "Image Search Application",
     content: "Developed a React-based image search application using the Pixabay API.",
     tags: ["React", "Tailwind", "Axios", "React-router", "JavaScript", "Pixabay API"],
@@ -13,7 +13,7 @@ const cards = [
   },
   {
     id: 2,
-    video: "src/assets/Projects/Video Player.mp4",
+    video: "./assets/Projects/Video Player.mp4",
     title: "Custom Video Player",
     content: "A custom video player application built with React, utilizing packages like React-Player for seamless video playback and Yup for input validation.",
     tags: ["React","React-player", "Mui", "Yup", "CSS"],
@@ -21,7 +21,7 @@ const cards = [
   },
   {
     id: 3,
-    video: "src/assets/Projects/QR Code Generator.mp4",
+    video: "./assets/Projects/QR Code Generator.mp4",
     title: "QR Code Generator",
     content: "Built a QR code generator that converts any website link into a QR code.",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -29,7 +29,7 @@ const cards = [
   },
   {
     id: 4,
-    video: "src/assets/Projects/Weather App.mp4",
+    video: "./assets/Projects/Weather App.mp4",
     title: "Weather Application",
     content: "Developed a real-time weather application that fetches weather data based on the city name entered.",
     tags: ["HTML", "CSS", "JavaScript", "Weather API"],
@@ -37,7 +37,7 @@ const cards = [
   },
   {
     id: 5,
-    video: "src/assets/Projects/Age Calculator.mp4",
+    video: "./assets/Projects/Age Calculator.mp4",
     title: "Age Calculator",
     content: "An application to calculate age based on date of birth.",
     tags: ["Html","CSS","Javascript"],
@@ -86,7 +86,7 @@ const Projects = () => {
           className="relative group overflow-hidden rounded-lg border-1 border-gray-300 hover:border-sky-400/50 hover:border-2 transition-all duration-300 git-card"
         >
           <img 
-            src="../src/assets/git.png" 
+            src="./assets/git.png" 
             alt="GitHub Projects" 
             className="w-full h-100 object-cover transition-all duration-300 brightness-70 group-hover:brightness-[0.3]"
           />

@@ -1,27 +1,34 @@
 import React from "react";
-import "../styles/style.css";
+import { Document, Page, pdfjs } from "react-pdf";
+import ResumePDF from "../../public/assets/Premnath-M.pdf"; // Path to your PDF file
 import { FaDownload } from "react-icons/fa";
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
+import "../styles/style.css";
+
+// Configure PDF.js worker
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 const AboutMe = () => {
   const handleDownload = () => {
-    // Create a link element
-    const link = document.createElement('a');
-    link.href = '/src/assets/Premnath-M.pdf'; // Path to your PDF file
-    link.download = 'Premnath-M.pdf'; // Name for the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    fetch(ResumePDF).then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = fileURL;
+        link.download = "Premnath-M.pdf"; // Name for the downloaded file
+        link.click();
+      });
+    });
 
     // Show toast notification
-    toast('Resume Downloaded Successfully!', {
-      icon: '✔️',
+    toast("Resume Downloaded Successfully!", {
+      icon: "✔️",
       style: {
-        border: '2px solid rgb(0, 105, 113)',
-        padding: '0.5rem 1rem',
-        background: '#000000',
-        color: 'white',
-        borderRadius: '15px',
+        border: "2px solid rgb(0, 105, 113)",
+        padding: "0.5rem 1rem",
+        background: "#000000",
+        color: "white",
+        borderRadius: "15px",
       },
     });
   };
