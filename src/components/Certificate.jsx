@@ -16,8 +16,8 @@ const certificates = [
 const CertificateSlider = () => {
   const settings = {
     className: "center",
-    centerMode: true,
-    infinite: true,
+    centerMode: false,
+    infinite: false,
     centerPadding: "50px",
     slidesToShow: 2,
     speed: 600,

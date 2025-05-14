@@ -4,6 +4,8 @@ import { RiTwitterXFill } from "react-icons/ri";
 import "../styles/Footer.css";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear(); 
+
   return (
     <footer className="footer-container" id="footer">
       <div className="footer-content">
@@ -43,8 +45,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <p className="footer-copy">Copyright © 2025 Premnath.M. All rights reserved.</p>
-    </footer>
+  <p className="footer-copy">Copyright © {currentYear} Premnath.M. All rights reserved.</p>    </footer>
   );
 };
 
